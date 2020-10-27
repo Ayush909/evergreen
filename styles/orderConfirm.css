@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+
+body {
+    background: #76b852;
+    font-family: "Roboto", sans-serif;
+    
+  }
+  .container {
+    width: 360px;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    padding: 8% 0 0;
+    margin: auto;
+  }
+  .buttons_container{
+      display: flex;
+
+  }
+  .button {
+  background-color: #379683;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
