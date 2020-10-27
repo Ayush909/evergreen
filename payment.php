@@ -16,11 +16,12 @@
     <script src = "Payment.js" type = "text/javascript"></script>
 </head>
 <body>
+      
     <div class="payment-page">
         <h1>Payment By Credit Card</h1>
         <div class="form">
           <form class="login-form" action="orderconfirm.php">
-            <input type="text" placeholder="Total Amount"/>
+            <input type="text" placeholder="Total Amount" value=<?php echo (int)$_GET["plant"] * (int)$_GET["quantity"] ;?> readonly/>
             <input type="number" placeholder="Card Number"/>
             <button class="button">Submit</button>
             <br><br>

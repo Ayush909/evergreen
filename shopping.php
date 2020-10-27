@@ -20,9 +20,9 @@
     </div>
     <div class="col-75">
       <select id="plant" name="plant">
-        <option value="australia">Short - ₹100</option>
-        <option value="canada">Medium - ₹200</option>
-        <option value="usa">Tall - ₹300</option>
+        <option value="100">Short - ₹100</option>
+        <option value="200">Medium - ₹200</option>
+        <option value="300">Tall - ₹300</option>
       </select>
     </div>
   </div>
@@ -31,7 +31,7 @@
       <label for="quantity">Quantity</label>
     </div>
     <div class="col-75">
-      <input type="number" id="quantity" name="quantity" placeholder="Enter Quantity..">
+      <input type="number" id="quantity" name="quantity" placeholder="Enter Quantity.." required>
     </div>
   </div>
   <div class="row">

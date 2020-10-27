@@ -4,9 +4,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Login System</title>
+	<title>EverGreen</title>
 	<link rel="stylesheet" href="main.css">
-	<link rel="stylesheet" href="styles/Shopping.css">
+	<link rel="stylesheet" href="styles/shopping.css">
 </head>
 <body>
 	<header>

@@ -7,8 +7,14 @@
         header("Location: index.php");
     }
 ?>
+        <div>
+            <?php
+               echo( '<br/>Welcome! '. $_SESSION['u_first'] .' ' .$_SESSION['u_last'] .'<br/>');
+               echo( 'Your email :'. $_SESSION['u_email'] );
+            ?>
+        </div>
         <div class="container_catalog">
-            <h1 style="text-align: center;">Evergreeen</h1>
+            <h1 style="text-align: center;">Evergreen</h1>
             <br/>
             <h2 style="text-align: center;">List of available trees:-</h2>
             <br/>
