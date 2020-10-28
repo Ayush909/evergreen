@@ -54,7 +54,7 @@
 					onchange = "validateform(this.value,this.name)" 
 					required
 				><br/>
-				<button type="submit" name="submit" onclick="xx()">SignUp</button>
+				<button type="submit" name="submit" >SignUp</button>
 			</form>
 		</div>
 	</section>
@@ -86,9 +86,7 @@
 				
 			}
 
-		const xx = () =>{
-			console.log("Dsdds")
-		}   
+		 
 		
 
 	</script>
